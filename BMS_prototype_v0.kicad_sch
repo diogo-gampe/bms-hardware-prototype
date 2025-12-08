@@ -3659,12 +3659,6 @@
 		(uuid "dc73de19-ff30-4f73-be48-725aecdbebc2")
 	)
 	(junction
-		(at 151.13 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e166c259-a1a3-4532-92e5-12c8d9b264a9")
-	)
-	(junction
 		(at 152.4 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4164,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 133.35) (xy 205.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3a687d-aaba-4029-b196-f3037a5cd655")
+	)
+	(wire
+		(pts
 			(xy 246.38 123.19) (xy 248.92 123.19)
 		)
 		(stroke
@@ -4261,16 +4265,6 @@
 			(type default)
 		)
 		(uuid "39f19593-00a2-4cfc-bcce-5ec765c61da1")
-	)
-	(wire
-		(pts
-			(xy 184.15 133.35) (xy 184.15 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a2646a8-5a77-4947-be0a-03e4ba175caf")
 	)
 	(wire
 		(pts
@@ -4504,6 +4498,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 133.35) (xy 153.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56cfdfa3-9333-4847-a30a-fcba89d2a1a6")
+	)
+	(wire
+		(pts
 			(xy 151.13 142.24) (xy 153.67 142.24)
 		)
 		(stroke
@@ -4651,16 +4655,6 @@
 			(type default)
 		)
 		(uuid "6858ddda-b906-4650-a2fd-51ff5a9fb382")
-	)
-	(wire
-		(pts
-			(xy 151.13 128.27) (xy 139.7 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69887f00-ab3d-4bfb-97b6-9f1be3a7ac49")
 	)
 	(wire
 		(pts
@@ -5294,16 +5288,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 128.27) (xy 205.74 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa0948b2-a35e-40c0-ac2b-9d961f98039a")
-	)
-	(wire
-		(pts
 			(xy 257.81 49.53) (xy 264.16 49.53)
 		)
 		(stroke
@@ -5644,16 +5628,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 133.35) (xy 205.74 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cda84ae9-29da-4df4-be51-4be482a4833f")
-	)
-	(wire
-		(pts
 			(xy 81.28 153.67) (xy 81.28 138.43)
 		)
 		(stroke
@@ -5691,16 +5665,6 @@
 			(type default)
 		)
 		(uuid "d1bc3ca9-8c2d-43e8-ad59-91eef001e40f")
-	)
-	(wire
-		(pts
-			(xy 184.15 142.24) (xy 153.67 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d26ae0a5-1db6-40de-9718-694c665535fd")
 	)
 	(wire
 		(pts
@@ -5844,13 +5808,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 125.73) (xy 151.13 128.27)
+			(xy 139.7 128.27) (xy 205.74 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea95d10f-2c26-4f29-98f1-f92521c82c95")
+		(uuid "eb52204c-05f5-4579-85d8-9ccf867ad8b9")
 	)
 	(wire
 		(pts
@@ -6045,6 +6009,18 @@
 		(uuid 55db6039-1995-4a14-985b-64a512889183)
 	)
 	(rectangle
+		(start 245.745 149.225)
+		(end 285.115 165.735)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6f2edaea-e4af-420a-9f30-7c454603f53e)
+	)
+	(rectangle
 		(start 187.96 16.51)
 		(end 234.95 71.755)
 		(stroke
@@ -6087,6 +6063,25 @@
 		)
 		(uuid "37fb1665-9e86-4905-badb-fcc18fe607fa")
 	)
+	(text_box "OBS1: Adicionar TestPoints\nOBS2: Selecionar Footprints\n"
+		(exclude_from_sim no)
+		(at 245.745 149.225 0)
+		(size 39.37 16.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c736a510-c10a-45c3-87b2-f5062f1d6612")
+	)
 	(text_box "Fonte de alimentação para reguladores LDO internos (REG1, REG2 e REG18). Dimensionar npn para aguentar tensão máxima de bateria e corrente máxima de fornecimento do BQ769x2(~45mA). Avaliar utilização de regulador de tensão independente.\n"
 		(exclude_from_sim no)
 		(at 187.96 63.5 0)
@@ -6125,6 +6120,16 @@
 		)
 		(uuid "d71dd528-7ae3-4484-8cf2-efd211a09754")
 	)
+	(text "0.001 ohm é o valor selecionado no datasheet. \nPodemos alterar para mudar o range de medições\n"
+		(exclude_from_sim no)
+		(at 148.59 192.278 0)
+		(effects
+			(font
+				(size 0.6096 0.6096)
+			)
+		)
+		(uuid "196506a0-96d3-4d05-82b9-14eaf87c634c")
+	)
 	(text "Confirmar conexão de cels não usadas\n"
 		(exclude_from_sim no)
 		(at 202.946 82.042 0)
@@ -6134,6 +6139,16 @@
 			)
 		)
 		(uuid "62196469-73b3-4189-bff2-7fc7d8fc16ba")
+	)
+	(text "pino TS2 pode ser usado como sinal WAKE também"
+		(exclude_from_sim no)
+		(at 193.04 143.764 0)
+		(effects
+			(font
+				(size 0.6096 0.6096)
+			)
+		)
+		(uuid "9fd8e227-9c52-4812-a359-a59c917a1028")
 	)
 	(text "No datasheet GND conectado a BAT- via um Net-Tie\n\n"
 		(exclude_from_sim no)
@@ -6277,6 +6292,17 @@
 		)
 		(uuid "dfc3b6d7-8233-469e-8ef8-5b0301a91695")
 	)
+	(label "SRN"
+		(at 153.67 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6f4500d-ebd6-42bf-8f84-23b75048665c")
+	)
 	(label "8P"
 		(at 36.83 125.73 0)
 		(fields_autoplaced yes)
@@ -6287,6 +6313,17 @@
 			(justify left bottom)
 		)
 		(uuid "f3f3cd4b-755e-41c3-8f3c-08cdec01339b")
+	)
+	(label "SRP"
+		(at 139.7 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f70cbd0b-6dfc-47f6-81ae-3ab3b3929df3")
 	)
 	(global_label "VC8"
 		(shape input)
@@ -6477,28 +6514,6 @@
 		(uuid "2d914280-0d8c-4300-b85a-8619f535c548")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.7072 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SRN"
-		(shape input)
-		(at 184.15 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "353d9e42-7a6a-439b-84b5-aea085ba9358")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.3548 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,28 +7025,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SRP"
-		(shape input)
-		(at 151.13 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b58b211-eac5-41c6-981e-6df82afe988d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.3953 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
