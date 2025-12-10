@@ -4718,16 +4718,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 97.79) (xy 205.74 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7207a3ba-4e83-478f-a700-3279845a6705")
-	)
-	(wire
-		(pts
 			(xy 261.62 26.67) (xy 264.16 26.67)
 		)
 		(stroke
@@ -5155,6 +5145,16 @@
 			(type default)
 		)
 		(uuid "9bb86c4e-390c-4b53-85a3-2d50580e8c31")
+	)
+	(wire
+		(pts
+			(xy 204.47 97.79) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4d3e28-6110-4f60-8a5c-0dd3b8d95d05")
 	)
 	(wire
 		(pts
@@ -6140,9 +6140,9 @@
 		)
 		(uuid "62196469-73b3-4189-bff2-7fc7d8fc16ba")
 	)
-	(text "pino TS2 pode ser usado como sinal WAKE também"
+	(text "pino TS2 pode ser usado como sinal WAKE também.\nSe for usado shutdown será necessário conectar um botão à esse pino\n"
 		(exclude_from_sim no)
-		(at 193.04 143.764 0)
+		(at 185.166 143.002 0)
 		(effects
 			(font
 				(size 0.6096 0.6096)
