@@ -640,6 +640,10 @@
     [
       "b77c19a1-d115-40ff-a76b-92ca097ac2c3",
       "Folha de proteção BMS"
+    ],
+    [
+      "dbf2fd1a-f4dc-4de4-a044-8057aaacd898",
+      "Folha de monitoramento BMS"
     ]
   ],
   "text_variables": {}

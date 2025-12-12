@@ -2169,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 63.5) (xy 90.17 63.5)
+			(xy 86.36 63.5) (xy 90.17 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2968,7 +2968,7 @@
 	)
 	(global_label "CHG"
 		(shape input)
-		(at 87.63 63.5 180)
+		(at 86.36 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2978,7 +2978,7 @@
 		)
 		(uuid "5ee94c8c-b27a-4851-8cf1-1828f30b1223")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.7743 63.5 0)
+			(at 79.5043 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
