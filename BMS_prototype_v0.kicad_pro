@@ -457,7 +457,24 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(D11-A)": "FBat",
+      "Net-(D11-K)": "CGate",
+      "Net-(D5-K)": "DGate",
+      "unconnected-(J1-Pin_1-Pad1)": "12P",
+      "unconnected-(J1-Pin_11-Pad11)": "7P",
+      "unconnected-(J1-Pin_13-Pad13)": "6P",
+      "unconnected-(J1-Pin_15-Pad15)": "5P",
+      "unconnected-(J1-Pin_17-Pad17)": "4P",
+      "unconnected-(J1-Pin_19-Pad19)": "3P",
+      "unconnected-(J1-Pin_21-Pad21)": "2P",
+      "unconnected-(J1-Pin_23-Pad23)": "1P",
+      "unconnected-(J1-Pin_3-Pad3)": "11P",
+      "unconnected-(J1-Pin_5-Pad5)": "10P",
+      "unconnected-(J1-Pin_7-Pad7)": "9P",
+      "unconnected-(J1-Pin_9-Pad9)": "8P",
+      "unconnected-(R38-Pad1)": "FBAT"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

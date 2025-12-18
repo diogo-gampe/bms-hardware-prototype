@@ -11,3 +11,6 @@
 - (Folha de proteção) Adiciona componentes para circuito de disparo de fusível controlável
 - (Folha de proteção) Adiciona componentes para circuito de pré-carga/descarga
 - (Folha de proteção) Adciona componentes para proteção de conexão com polaridade reversa
+
+18/12/25
+- Adiciona diretório com simulações de LTSpice
