@@ -1,29 +1,34 @@
-Questionable use of curly braces in "b6 en_chg 0 v={if(v(cmd_chg)>0.5,1,0)}"
-    Error: undefined symbol in: "if([v](cmd_chg)>0.5,1,0)"
-Questionable use of curly braces in "b7 en_dchg 0 v={if(v(cmd_dchg)>0.5,1,0)}"
-    Error: undefined symbol in: "if([v](cmd_dchg)>0.5,1,0)"
+Questionable use of curly braces in "b6 en_chg 0 v={if((v(cmd_chg)>0.5)&v(fault_occ)<1,1,0)}"
+    Error: undefined symbol in: "if(([v](cmd_chg)>0.5)&v(fault_occ)<1,1,0)"
+Questionable use of curly braces in "b7 en_dsg 0 v={if((v(cmd_dsg)>0.5)&v(fault_ocd)<1,1,0)}"
+    Error: undefined symbol in: "if(([v](cmd_dsg)>0.5)&v(fault_ocd)<1,1,0)"
 Circuit: * C:\Users\lenovo\Documentos\Sensoria\Sim\BMS_Prot_Principal.asc
 
-WARNING: Node N001 is floating.
-WARNING: Node N003 is floating.
+Warning: Multiple definitions of model "swlatch" Type: Switch
+WARNING: Node N002 is floating.
+WARNING: Node N005 is floating.
 
 Direct Newton iteration for .op point succeeded.
+.step cap=1e-05
+.step cap=5e-05
+.step cap=0.0002
+.step cap=0.001
 
-Date: Thu Dec 18 14:10:52 2025
-Total elapsed time: 0.694 seconds.
+Date: Tue Jan 13 14:21:07 2026
+Total elapsed time: 36.245 seconds.
 
 tnom = 27
 temp = 27
 method = Gear
-totiter = 1921
-traniter = 1872
-tranpoints = 864
-accept = 780
-rejected = 84
-matrix size = 49
-fillins = 25
+totiter = 106538
+traniter = 106490
+tranpoints = 40417
+accept = 40320
+rejected = 97
+matrix size = 95
+fillins = 60
 solver = Alternate
-Avg thread counts: 1.7/2.5/2.4/1.7
-Matrix Compiler1: 5.28 KB object code size  2.8/2.4/[1.4]
-Matrix Compiler2: 4.68 KB object code size  1.6/2.5/[1.6]
+Avg thread counts: 2.0/1.0/1.0/1.0
+Matrix Compiler1: 9.59 KB object code size  4.6/4.3/[2.9]
+Matrix Compiler2: 8.63 KB object code size  2.9/3.7/[2.3]
 
