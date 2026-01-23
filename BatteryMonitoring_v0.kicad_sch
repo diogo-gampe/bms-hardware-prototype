@@ -7150,7 +7150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:S200-75"
+		(property "Footprint" "footprints:S200_75"
 			(at 143.51 187.198 90)
 			(effects
 				(font
