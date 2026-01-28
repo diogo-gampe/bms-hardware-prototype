@@ -1943,6 +1943,12 @@
 		(uuid "225be564-9ef2-4528-bcd9-13d8894a3f1f")
 	)
 	(junction
+		(at 48.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d263dfc-35bd-4a66-9bde-f7d4b882d5d3")
+	)
+	(junction
 		(at 129.54 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1997,16 +2003,16 @@
 		(uuid "6c996ca5-5ee8-4a11-af75-19cfd812b348")
 	)
 	(junction
+		(at 33.02 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "767f4a4f-8ba0-4b9d-8f69-832023834919")
+	)
+	(junction
 		(at 69.85 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77533beb-3655-45ae-b605-c8295b993648")
-	)
-	(junction
-		(at 69.85 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8471f55e-8627-4197-a2f5-5bcbf377959e")
 	)
 	(junction
 		(at 26.67 66.04)
@@ -2057,12 +2063,6 @@
 		(uuid "b0cb7072-c195-44b6-bb19-fdc8055e24d2")
 	)
 	(junction
-		(at 33.02 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7dc3f1b-82a0-4f17-8d85-81cd0a434b15")
-	)
-	(junction
 		(at 64.77 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2099,12 +2099,6 @@
 		(uuid "d91f1527-2382-47e8-97a4-fc2d58097204")
 	)
 	(junction
-		(at 48.26 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da3df578-d009-4e4f-b480-059ede9ba987")
-	)
-	(junction
 		(at 31.75 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2123,6 +2117,12 @@
 		(uuid "e0dc98dd-a4ef-424a-8a70-4e99dd964572")
 	)
 	(junction
+		(at 69.85 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7299c0a-44d7-44c8-afca-7345a345ec18")
+	)
+	(junction
 		(at 40.64 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2133,6 +2133,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed305d73-abef-409e-8aa4-cfd4f9a79606")
+	)
+	(wire
+		(pts
+			(xy 48.26 25.4) (xy 69.85 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006a2f1d-94d4-4d99-895a-c3472599f176")
 	)
 	(wire
 		(pts
@@ -2213,16 +2223,6 @@
 			(type default)
 		)
 		(uuid "0e5c10eb-8fd5-4cc8-a777-3b41feadc258")
-	)
-	(wire
-		(pts
-			(xy 86.36 25.4) (xy 69.85 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0efc389e-0995-4e5b-8eb0-4c3e30822152")
 	)
 	(wire
 		(pts
@@ -2346,16 +2346,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 25.4) (xy 48.26 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b1f1f85-983a-4542-983b-d209cd7d07ce")
-	)
-	(wire
-		(pts
 			(xy 119.38 54.61) (xy 119.38 55.88)
 		)
 		(stroke
@@ -2393,6 +2383,16 @@
 			(type default)
 		)
 		(uuid "320f752a-6e9d-422f-a785-db35fa53b7f0")
+	)
+	(wire
+		(pts
+			(xy 33.02 25.4) (xy 45.72 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327a3333-3e74-4391-933b-376b600b7279")
 	)
 	(wire
 		(pts
@@ -2946,6 +2946,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 25.4) (xy 86.36 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e00f8a-e4f4-4b2f-a67d-c352a80bd466")
+	)
+	(wire
+		(pts
 			(xy 31.75 66.04) (xy 38.1 66.04)
 		)
 		(stroke
@@ -2953,6 +2963,16 @@
 			(type default)
 		)
 		(uuid "c1e10a39-e3c4-4f8d-848c-660e59be519a")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 48.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20614fe-ada2-4a72-9bbd-153544c7ce4d")
 	)
 	(wire
 		(pts
@@ -2996,16 +3016,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 58.42) (xy 48.26 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf3f47b-ca23-4585-b01e-bd2060bd5ad5")
-	)
-	(wire
-		(pts
 			(xy 205.74 60.96) (xy 205.74 82.55)
 		)
 		(stroke
@@ -3023,6 +3033,16 @@
 			(type default)
 		)
 		(uuid "cf9d2c3b-1362-48a3-897f-71492bfefe6d")
+	)
+	(wire
+		(pts
+			(xy 48.26 26.67) (xy 48.26 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f227ce-5ac8-42cb-aac0-c7f1fd636c50")
 	)
 	(wire
 		(pts
@@ -3166,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 26.67) (xy 45.72 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41e634e-f608-4302-8ea0-5c5101a75fa6")
+	)
+	(wire
+		(pts
 			(xy 119.38 50.8) (xy 119.38 54.61)
 		)
 		(stroke
@@ -3173,16 +3203,6 @@
 			(type default)
 		)
 		(uuid "f707b995-c7fc-44ee-8cc7-5d36016ea797")
-	)
-	(wire
-		(pts
-			(xy 50.8 25.4) (xy 69.85 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7526707-da5d-4437-a852-ab6e2a7f07fb")
 	)
 	(wire
 		(pts
@@ -3196,16 +3216,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 59.69) (xy 48.26 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fad879d4-9168-449d-aee5-c96a3ef01738")
-	)
-	(wire
-		(pts
 			(xy 148.59 80.01) (xy 191.77 80.01)
 		)
 		(stroke
@@ -3215,7 +3225,7 @@
 		(uuid "fe3f7225-19cd-4bc7-ad6e-0914bed094d8")
 	)
 	(label "FBAT"
-		(at 59.69 25.4 0)
+		(at 62.23 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3629,6 +3639,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11ef977c-517f-4797-ae50-5cd691faec2b")
 		)
@@ -3705,6 +3724,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "HV732BTTD1005F"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f243e555-8120-489e-b67f-380a09f584b0")
 		)
@@ -3772,6 +3800,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 107.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1206C104K5RACTU"
+			(at 107.95 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,6 +3892,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MMSZ5246B-TP"
+			(at 160.02 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32505cd5-5aec-45a7-81f9-d49eff34cc83")
 		)
@@ -3923,6 +3969,15 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT46W-7-F"
+			(at 138.43 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,6 +4131,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C104K5RACTU"
+			(at 90.17 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "952c1f33-8dfa-4c7d-922c-6b7bf2628d97")
 		)
@@ -4151,6 +4215,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C104K5RACTU"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7700ca2-a8ef-4d31-9827-8007e56ffc85")
 		)
@@ -4217,6 +4290,15 @@
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 45.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AOD256"
+			(at 45.72 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,6 +4385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C104K5RACTU"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c83a841e-f7e4-4627-aa9b-ae650089f9aa")
 		)
@@ -4379,6 +4470,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 72.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a06f534-e669-4839-bc6f-8c1e4dadb358")
 		)
@@ -4446,6 +4546,15 @@
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPD200N15N3GATMA1"
+			(at 107.95 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,6 +4712,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 107.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77906de8-110a-41f3-8047-f12151beb34a")
 		)
@@ -4679,6 +4797,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b35005f-546e-4d29-98e5-303b3cf5b719")
 		)
@@ -4702,7 +4829,8 @@
 	)
 	(symbol
 		(lib_id "ITV4030L1412NR:ITV4030L1412NR")
-		(at 48.26 58.42 90)
+		(at 48.26 59.69 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4710,7 +4838,7 @@
 		(dnp no)
 		(uuid "506cd545-ee51-4fcc-8aa1-0bd3ee9c3d6f")
 		(property "Reference" "F1"
-			(at 54.61 40.6399 90)
+			(at 41.91 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,8 +4846,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ITV4030L1412NR"
-			(at 57.912 34.29 0)
+		(property "Value" "SCF9550"
+			(at 38.608 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,8 +4855,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ITV4030L1412NR"
-			(at 143.18 29.21 0)
+		(property "Footprint" "SCF-9550:Sem título"
+			(at -46.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4866,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=395a7ef1-7753-4b9f-ab36-cd3d0ea00512&filename=littelfuse-itv4030-12a-15a-datasheet"
-			(at 243.18 29.21 0)
+			(at -146.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,8 +4875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12A 36 VDC Fuse Board Mount Surface Mount "
-			(at 48.26 58.42 0)
+		(property "Description" "12A 36 VDC Fuse Board Mount Surface Mount"
+			(at 48.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4885,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 443.18 29.21 0)
+			(at -346.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4895,7 @@
 			)
 		)
 		(property "Mouser Part Number" "650-ITV4030L1412NR"
-			(at 543.18 29.21 0)
+			(at -446.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4905,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/ITV4030L1412NR?qs=vHuUswq2%252BszP1yrzBS5z%2Fg%3D%3D"
-			(at 643.18 29.21 0)
+			(at -546.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +4915,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 743.18 29.21 0)
+			(at -646.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4925,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ITV4030L1412NR"
-			(at 843.18 29.21 0)
+			(at -746.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,6 +5013,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-8GEYJ103V"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad3f1649-40e9-4f54-a18c-868503b6d8da")
 		)
@@ -4961,6 +5098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "BAT46W-7-F"
+			(at 148.59 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af673b39-fe0d-4763-b917-923b6c921c91")
 		)
@@ -5028,6 +5174,15 @@
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPD200N15N3GATMA1"
+			(at 90.17 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,6 +5268,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MMSZ5246B-TP"
+			(at 129.54 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a987610e-b142-44d9-a918-e4ccf60fb303")
 		)
@@ -5181,6 +5345,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
 			(at 33.02 45.72 0)
 			(effects
 				(font
@@ -5265,6 +5438,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "106f916f-d6e3-4c57-9efd-dc1326b8b138")
 		)
@@ -5332,6 +5514,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HV732BTTD1005F"
 			(at 119.38 46.99 0)
 			(effects
 				(font
@@ -5416,6 +5607,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C104K5RACTU"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efc51384-c5ea-4cb5-a5ec-575fdc5f598b")
 		)
@@ -5483,6 +5683,15 @@
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 173.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPD200N15N3GATMA1"
+			(at 173.99 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,6 +5778,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c8bb153-a095-48a3-ab87-c8a8f0538ce4")
 		)
@@ -5636,6 +5854,15 @@
 		)
 		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 40.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI3437DV-T1-GE3"
+			(at 40.64 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,6 +6020,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 90.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8adb7c3f-9ca6-464d-8820-4f7a6eed38a1")
 		)
@@ -5861,6 +6097,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
 			(at 31.75 69.85 0)
 			(effects
 				(font
@@ -5945,6 +6190,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "HV732BTTD1005F"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a876bac-f167-4619-bb01-dc44638cdaaa")
 		)
@@ -6014,6 +6268,15 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT46W-7-F"
+			(at 119.38 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,6 +6360,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MMSZ5246B-TP"
+			(at 69.85 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "428a51ea-04cd-4eaa-b7f0-34d948fa06f7")
 		)
@@ -6146,7 +6418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 146.05 71.12 0)
 			(effects
 				(font
@@ -6184,6 +6456,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMBD914LT3G"
+			(at 146.05 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,6 +6619,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 40.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7042bf89-58b5-42ff-aebe-d30292c2f6cf")
 		)
@@ -6407,6 +6697,15 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT46W-7-F"
+			(at 158.75 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,6 +6788,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MMSZ4697T1G"
+			(at 26.67 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "788c9919-d1db-4b74-bbaf-6ce1d95cac19")
 		)
@@ -6564,6 +6872,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 26.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05e7e493-ad29-4f26-97f3-21ef951d82a2")
 		)
@@ -6631,6 +6948,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HV732BTTD1005F"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -6715,6 +7041,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "HV732BTTD1005F"
+			(at 77.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adf82720-e4b0-4866-bcbf-b1f97e2bc384")
 		)
@@ -6791,6 +7126,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW12065K10FKEAHP"
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6ca51c1-be3d-4a31-a9ec-7a9624996241")
 		)
@@ -6830,7 +7174,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 25.4 116.84 90)
 			(effects
 				(font
@@ -6858,6 +7202,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HRG3216P-2001-D-T1"
+			(at 25.4 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +7257,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 88.9 116.84 90)
 			(effects
 				(font
@@ -6932,6 +7285,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HRG3216P-2001-D-T1"
+			(at 88.9 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,6 +7449,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "SML-LX1210IGC-TR"
+			(at 33.02 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "270c66d7-f8cc-4eb1-afcb-c28b3ad971b9")
 		)
@@ -7163,6 +7534,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "RNCP1206FTD7K50"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36868899-781e-4c08-bb7d-d43e865d6e0b")
 		)
@@ -7230,6 +7610,15 @@
 		)
 		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 72.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI3437DV-T1-GE3"
+			(at 72.39 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)

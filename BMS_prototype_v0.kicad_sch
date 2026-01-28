@@ -2419,16 +2419,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 36.83) (xy 186.69 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e29775-6502-41a9-9e0e-71deb1975ff3")
-	)
-	(wire
-		(pts
 			(xy 21.59 100.33) (xy 35.56 100.33)
 		)
 		(stroke
@@ -2476,6 +2466,16 @@
 			(type default)
 		)
 		(uuid "096fb143-7bb8-44f3-9540-ad19301f8522")
+	)
+	(wire
+		(pts
+			(xy 184.15 34.29) (xy 186.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e73db27-9f6e-46ed-9014-29e893060bbb")
 	)
 	(wire
 		(pts
@@ -2556,16 +2556,6 @@
 			(type default)
 		)
 		(uuid "1a08629d-3cd4-48c6-880d-c073ec441d6c")
-	)
-	(wire
-		(pts
-			(xy 184.15 34.29) (xy 186.69 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d6f7bf5-2703-479f-98cd-d9bddb7b3a88")
 	)
 	(wire
 		(pts
@@ -3086,6 +3076,16 @@
 			(type default)
 		)
 		(uuid "712391f5-e561-4da0-9b21-e224518647a8")
+	)
+	(wire
+		(pts
+			(xy 184.15 36.83) (xy 186.69 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d79196-49c6-4271-abe5-711e7345a276")
 	)
 	(wire
 		(pts
@@ -4623,7 +4623,7 @@
 	)
 	(global_label "PACK+"
 		(shape input)
-		(at 186.69 34.29 0)
+		(at 186.69 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4633,7 +4633,7 @@
 		)
 		(uuid "79755726-66a2-499b-9589-73bce078481a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1462 34.29 0)
+			(at 196.1462 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +4733,7 @@
 	)
 	(global_label "PACK-"
 		(shape input)
-		(at 186.69 36.83 0)
+		(at 186.69 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4743,7 +4743,7 @@
 		)
 		(uuid "8eb5b98b-533a-4cc0-b900-0cc251acf8c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1462 36.83 0)
+			(at 196.1462 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5013,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 80.01 90)
 			(effects
 				(font
@@ -5042,6 +5042,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,6 +5128,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c031c8cf-2e87-496c-ae0a-63cda70eb0aa")
 		)
@@ -5152,7 +5170,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 85.09 90)
 			(effects
 				(font
@@ -5181,6 +5199,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5248,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 90.17 90)
 			(effects
 				(font
@@ -5250,6 +5277,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,6 +5355,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
 			(at 82.55 114.3 0)
 			(effects
 				(font
@@ -5397,6 +5442,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4f50e9e-791c-4dc2-adda-c6bdbb4578c8")
 		)
@@ -5430,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 199.898 64.262 90)
 			(effects
 				(font
@@ -5459,6 +5513,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,6 +5590,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
 			(at 256.54 110.49 0)
 			(effects
 				(font
@@ -5604,6 +5676,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
+			(at 256.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29572af6-b77c-4cb6-b6b5-748c54c1f432")
 		)
@@ -5664,6 +5745,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 43.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "G800W268018EU"
 			(at 43.18 92.71 0)
 			(effects
 				(font
@@ -5808,6 +5898,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "832d7fe5-da54-4775-b592-f66a75974a1a")
 		)
@@ -5869,6 +5968,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "G800W306018EU"
 			(at 25.4 34.29 0)
 			(effects
 				(font
@@ -5976,7 +6084,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 87.63 90)
 			(effects
 				(font
@@ -6005,6 +6113,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,6 +6199,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "299801a8-cd8d-4738-ae8d-e2286e9462d0")
 		)
@@ -6142,6 +6268,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x13, script generated"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-13-UA"
 			(at 189.23 83.82 0)
 			(effects
 				(font
@@ -6226,7 +6361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -6286,7 +6421,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 77.47 90)
 			(effects
 				(font
@@ -6315,6 +6450,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,6 +6536,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce76b375-9392-4a66-8fac-bfcfd4672845")
 		)
@@ -6425,7 +6578,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 95.25 90)
 			(effects
 				(font
@@ -6454,6 +6607,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,6 +6692,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53e4814c-de9a-4efe-8c7b-43cd6aba65c0")
 		)
@@ -6571,7 +6742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile"
+		(property "Footprint" "footprints:SWT31AAA3S1"
 			(at 40.64 34.29 0)
 			(effects
 				(font
@@ -6590,6 +6761,15 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SW-T3-1A-A-A3-S1"
 			(at 40.64 34.29 0)
 			(effects
 				(font
@@ -6659,6 +6839,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
 			(at 256.54 49.53 0)
 			(effects
 				(font
@@ -6737,6 +6926,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77fac425-351b-49f8-a74e-385edc6d6ac9")
 		)
@@ -6799,6 +6997,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
 			(at 82.55 82.55 0)
 			(effects
 				(font
@@ -7008,6 +7215,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
+			(at 256.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c616241-0af3-43ef-89f9-3e53dc1afc58")
 		)
@@ -7078,6 +7294,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e70a27dc-15d6-46d6-8571-8fc7ab7d6c0b")
 		)
@@ -7111,7 +7336,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 82.55 90)
 			(effects
 				(font
@@ -7140,6 +7365,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7414,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 92.71 90)
 			(effects
 				(font
@@ -7209,6 +7443,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,6 +7520,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
 			(at 256.54 41.91 0)
 			(effects
 				(font
@@ -7355,6 +7607,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3dbce3f-34eb-44d2-bb69-25a0d29ab66e")
 		)
@@ -7388,7 +7649,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 74.93 90)
 			(effects
 				(font
@@ -7417,6 +7678,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,6 +7763,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a261074-7635-4787-8c40-2b5012c350ff")
 		)
@@ -7526,7 +7805,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 67.31 90)
 			(effects
 				(font
@@ -7555,6 +7834,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,6 +7911,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
 			(at 256.54 64.77 0)
 			(effects
 				(font
@@ -7766,6 +8063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
+			(at 256.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cc6f648-df7b-4edb-bc8c-e5fd562998da")
 		)
@@ -7808,7 +8114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "footprints:CONN_1935776_PXC"
 			(at 179.07 34.29 0)
 			(effects
 				(font
@@ -7827,6 +8133,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "G800W306018EU"
 			(at 179.07 34.29 0)
 			(effects
 				(font
@@ -7868,7 +8183,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 72.39 90)
 			(effects
 				(font
@@ -7897,6 +8212,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,6 +8364,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0336dd0-a426-4940-8fd1-a0b6febf067f")
 		)
@@ -8073,7 +8406,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 205.74 69.85 90)
 			(effects
 				(font
@@ -8102,6 +8435,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 205.74 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,6 +8521,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CR1206-FX-2000ELF"
+			(at 82.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d759425-6d27-4022-bea2-01b60d6e6156")
 		)
@@ -8240,6 +8591,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
 			(at 256.54 102.87 0)
 			(effects
 				(font
@@ -8317,6 +8677,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
+			(at 256.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ad03b0f-3e76-4b7b-9ae5-b81364fcccca")
 		)
@@ -8386,6 +8755,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
+			(at 256.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75f26c2a-cbec-4688-bf9e-6c8be21d7553")
 		)
@@ -8447,6 +8825,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1206C224J5RECAUTO"
 			(at 256.54 34.29 0)
 			(effects
 				(font

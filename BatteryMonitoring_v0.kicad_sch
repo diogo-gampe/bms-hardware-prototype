@@ -3430,6 +3430,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 38.1) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080297e8-103b-45c5-954d-1a23a5702761")
+	)
+	(wire
+		(pts
 			(xy 120.65 54.61) (xy 120.65 53.34)
 		)
 		(stroke
@@ -3730,7 +3740,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 40.64) (xy 120.65 38.1)
+			(xy 120.65 40.64) (xy 120.65 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3740,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 19.05) (xy 120.65 19.05)
+			(xy 129.54 15.24) (xy 120.65 15.24)
 		)
 		(stroke
 			(width 0)
@@ -3857,16 +3867,6 @@
 			(type default)
 		)
 		(uuid "525e75f1-d4af-4437-a4cb-1d2a47cd85ac")
-	)
-	(wire
-		(pts
-			(xy 173.99 38.1) (xy 176.53 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53919152-d0dd-4770-a806-0ae6d5f651f7")
 	)
 	(wire
 		(pts
@@ -4310,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 19.05) (xy 120.65 22.86)
+			(xy 120.65 15.24) (xy 120.65 16.51)
 		)
 		(stroke
 			(width 0)
@@ -4768,7 +4768,7 @@
 	)
 	(global_label "CD"
 		(shape input)
-		(at 124.46 19.05 0)
+		(at 129.54 15.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4778,7 +4778,7 @@
 		)
 		(uuid "1c4b2ff7-4edb-47c4-9d28-215e4fc0f0a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.9852 19.05 0)
+			(at 135.0652 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,6 +6051,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "HV732BTTD1005F"
+			(at 105.41 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5edff515-06b1-40ce-8c83-453a1a2e9a3e")
 		)
@@ -6112,6 +6121,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 201.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BQ7695202PFBR"
 			(at 201.93 81.28 0)
 			(effects
 				(font
@@ -6394,6 +6412,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "RC1206FR-07100RL"
+			(at 149.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09788e88-b194-45da-918a-375f808917cc")
 		)
@@ -6491,6 +6518,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2N5830"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adce8ad2-6578-4125-9998-ad1eeb8ac748")
 		)
@@ -6536,7 +6572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "footprints:SMT_FS"
 			(at 67.31 26.67 0)
 			(effects
 				(font
@@ -6545,7 +6581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+		(property "Datasheet" ""
 			(at 67.31 26.67 0)
 			(effects
 				(font
@@ -6554,7 +6590,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
+		(property "Description" ""
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526SM15SMTR2 LFS"
 			(at 67.31 34.29 0)
 			(effects
 				(font
@@ -6636,6 +6681,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "RC1206FR-07100RL"
+			(at 88.9 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ab1b6ab-1538-43a5-93da-c6a59ae1902d")
 		)
@@ -6704,6 +6758,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CL31B474KBHNNNE"
+			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02fe4dbb-4c4b-485f-8485-320707c70831")
 		)
@@ -6736,7 +6799,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 208.788 24.892 90)
 			(effects
 				(font
@@ -6765,6 +6828,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 204.47 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 204.47 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,6 +7046,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CL31B225KBHNNNE"
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24df3aa9-9ea7-46b4-a2ac-45d3c0ffc844")
 		)
@@ -7036,6 +7117,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 260.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B105KBHNNNE"
+			(at 260.35 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,13 +7284,13 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 181.61 33.02 0)
+		(at 184.15 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5abb4b20-48ff-4dd7-a395-67effb43c9bc")
 		(property "Reference" "J5"
 			(at 182.88 19.05 0)
@@ -7218,8 +7308,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
-			(at 181.61 33.02 0)
+		(property "Footprint" "footprints:CONN16_SBH11-PBPC-D08-ST-BK_SUL"
+			(at 184.15 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7228,7 +7318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 33.02 0)
+			(at 184.15 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,7 +7327,16 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 181.61 33.02 0)
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBH11-PBPC-D08-ST-BK"
+			(at 184.15 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7594,7 +7693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "footprints:SMT_FS"
 			(at 162.56 142.24 0)
 			(effects
 				(font
@@ -7614,6 +7713,15 @@
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
 			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526SK15SMTR2 LFS"
+			(at 170.18 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,6 +7936,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-8GEYJ103V"
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db58a77b-4039-43c4-9a64-bf23223be371")
 		)
@@ -7897,6 +8014,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" " 1206PC103KAT2A"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "baa22dba-d2b8-46b0-85c8-8e055ffbd310")
 		)
@@ -7914,7 +8040,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 120.65 26.67 90)
+		(at 120.65 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7922,7 +8048,7 @@
 		(dnp no)
 		(uuid "ab7c45c7-82b2-443d-bedb-336dd4e86cda")
 		(property "Reference" "D7"
-			(at 118.11 28.2576 90)
+			(at 118.11 21.9076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +8057,7 @@
 			)
 		)
 		(property "Value" "100V"
-			(at 116.84 25.7176 90)
+			(at 116.84 19.3676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,7 +8066,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 120.65 26.67 0)
+			(at 120.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +8075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 26.67 0)
+			(at 120.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7958,7 +8084,16 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 120.65 26.67 0)
+			(at 120.65 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT46W-7-F"
+			(at 120.65 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,6 +8163,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VPDD102W101K1GV001E"
+			(at 143.51 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,6 +8315,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "103AT-2"
+			(at 194.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "849cba42-06e4-4258-aba5-a978e77b6e0c")
 		)
@@ -8241,6 +8394,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "103AT-2"
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e477789-18b0-4f94-8723-8b755edb4dfd")
 		)
@@ -8273,7 +8435,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20"
 			(at 203.962 13.208 90)
 			(effects
 				(font
@@ -8302,6 +8464,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 208.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0720RL"
+			(at 208.28 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,6 +8549,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "BAT46W-7-F"
+			(at 80.01 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72d29501-d182-4b79-9d0c-a525b2b03263")
 		)
@@ -8441,6 +8621,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 184.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2011-1X03G00SB-1"
 			(at 184.15 148.59 0)
 			(effects
 				(font
@@ -8587,6 +8776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "VPDD102W101K1GV001E"
+			(at 114.3 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3be6d3e0-b21a-4586-998a-172aabf23071")
 		)
@@ -8722,6 +8920,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CC1206JRNPO9BN223"
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99a43c26-5f2a-4937-8372-4c6a6e63170f")
 		)
@@ -8784,6 +8991,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B105KBHNNNE"
+			(at 260.35 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8859,6 +9075,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CL31B105KBHNNNE"
+			(at 125.73 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d053bb74-29d7-45fd-a231-5870da50773f")
 		)
@@ -8927,6 +9152,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CL31B105KBHNNNE"
+			(at 105.41 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7415981b-6482-4cbf-bd05-f70d3490e63c")
 		)
@@ -8937,6 +9171,82 @@
 			(project "BMS_prototype_v0"
 				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa/dbf2fd1a-f4dc-4de4-a044-8057aaacd898"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5cd16fd-94c5-4ce1-a558-431f6def6c32")
+		(property "Reference" "R45"
+			(at 120.65 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 118.11 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 118.872 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW2512220RJNEG"
+			(at 120.65 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d08957d8-0021-4b2c-8a0a-0765cc531715")
+		)
+		(pin "2"
+			(uuid "ee020906-4746-49f9-92d2-364681af2a00")
+		)
+		(instances
+			(project "BMS_prototype_v0"
+				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa/dbf2fd1a-f4dc-4de4-a044-8057aaacd898"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -8989,6 +9299,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 143.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1206C104K5RACTU"
+			(at 143.51 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,6 +9385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "RC1206FR-07100RL"
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04ace898-f6bf-4f52-81fd-b39726bc871b")
 		)
@@ -9083,7 +9411,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 34.29 0)
+		(at 120.65 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9091,7 +9419,7 @@
 		(dnp no)
 		(uuid "fc71a710-dd4e-4c26-9c20-0a49bcbd7038")
 		(property "Reference" "R62"
-			(at 120.65 34.29 90)
+			(at 120.65 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9427,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 118.11 34.29 90)
+			(at 118.11 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9107,7 +9435,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 118.872 34.29 90)
+			(at 118.872 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 34.29 0)
+			(at 120.65 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9453,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 34.29 0)
+			(at 120.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW2512220RJNEG"
+			(at 120.65 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,6 +9532,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-8GEYJ103V"
 			(at 170.18 153.67 0)
 			(effects
 				(font
