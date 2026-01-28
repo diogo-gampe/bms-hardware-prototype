@@ -14,3 +14,6 @@
 
 18/12/25
 - Adiciona diretório com simulações de LTSpice
+28/01/25
+- Adiciona footprints finais, com base na lista de componentes fornecidas ao pessoal do SENAI
+- Posiciona Net-Tie entre terminal negativo da bateria e tensão de referência dos CIs para isolar caminhos de alta corrente
