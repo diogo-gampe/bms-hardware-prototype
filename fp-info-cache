@@ -1,4 +1,4 @@
-26642730601811239
+26644500137668493
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105552,6 +105552,13 @@ SOT230P700X180-4N
 0
 4
 4
+footprints
+SWT31AAA3S1
+
+
+0
+2
+2
 footprints
 SW_DS01C-254-S-09BE
 
