@@ -17,3 +17,6 @@
 28/01/25
 - Adiciona footprints finais, com base na lista de componentes fornecidas ao pessoal do SENAI
 - Posiciona Net-Tie entre terminal negativo da bateria e tensão de referência dos CIs para isolar caminhos de alta corrente
+30/01/25
+- Posiciona footprints de testpoints para medições de sinais chave para testes. 
+- Ajusta posicionamento de regiões de alta corrente. 

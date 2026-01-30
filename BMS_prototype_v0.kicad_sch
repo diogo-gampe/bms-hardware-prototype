@@ -788,6 +788,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x12_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2469,7 +2576,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 34.29) (xy 186.69 34.29)
+			(xy 132.08 137.16) (xy 134.62 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 36.83) (xy 186.69 36.83)
+			(xy 132.08 139.7) (xy 134.62 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4623,7 +4730,7 @@
 	)
 	(global_label "PACK+"
 		(shape input)
-		(at 186.69 36.83 0)
+		(at 134.62 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4633,7 +4740,7 @@
 		)
 		(uuid "79755726-66a2-499b-9589-73bce078481a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1462 36.83 0)
+			(at 144.0762 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +4840,7 @@
 	)
 	(global_label "PACK-"
 		(shape input)
-		(at 186.69 34.29 0)
+		(at 134.62 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4743,7 +4850,7 @@
 		)
 		(uuid "8eb5b98b-533a-4cc0-b900-0cc251acf8c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1462 34.29 0)
+			(at 144.0762 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,6 +5652,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33c3b0ba-a5df-4580-a59f-1948b62e0433")
+		(property "Reference" "#PWR08"
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f85ce24-cec5-4465-8cec-e6317dd7900b")
+		)
+		(instances
+			(project "BMS_prototype_v0"
+				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 256.54 110.49 0)
 		(unit 1)
@@ -5844,6 +6017,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 107.95 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46905284-7ce9-4d94-b843-1e78040f8fed")
+		(property "Reference" "#PWR07"
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.442 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5bbdee4-3bf0-4311-bac2-8b59880886fb")
+		)
+		(instances
+			(project "BMS_prototype_v0"
+				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 82.55 104.14 0)
 		(unit 1)
@@ -5995,6 +6233,73 @@
 			(project "BMS_prototype_v0"
 				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51301c95-53fe-4daf-8009-cc5410cfb51a")
+		(property "Reference" "TP1"
+			(at 102.362 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b188360-c61f-4284-a77f-140e6c8108a8")
+		)
+		(instances
+			(project ""
+				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7866,6 +8171,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 104.14 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf38ebe3-e205-405c-9c11-47f6e4e14005")
+		(property "Reference" "#PWR06"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.616 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f360c732-a095-463c-b4a8-e3994a5391b4")
+		)
+		(instances
+			(project ""
+				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 256.54 64.77 0)
 		(unit 1)
@@ -8089,7 +8459,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 179.07 34.29 0)
+		(at 127 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8098,7 +8468,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc7a10f1-552d-4705-ac84-c67489bdde6c")
 		(property "Reference" "J4"
-			(at 179.705 29.21 0)
+			(at 127.635 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8476,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 179.705 31.75 0)
+			(at 127.635 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8485,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_1935776_PXC"
-			(at 179.07 34.29 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 34.29 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8503,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 179.07 34.29 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8512,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "G800W306018EU"
-			(at 179.07 34.29 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,6 +9222,140 @@
 			(project "BMS_prototype_v0"
 				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f73f5615-d167-4b88-8498-9ff039016438")
+		(property "Reference" "TP3"
+			(at 110.744 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.3 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07467db4-ef57-45b0-9e4b-65861d1cebeb")
+		)
+		(instances
+			(project "BMS_prototype_v0"
+				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff148d19-68e1-4034-bf5b-1ef792184765")
+		(property "Reference" "TP2"
+			(at 106.426 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 113.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1373e54a-e5d2-46e7-83d2-e896a079c0d9")
+		)
+		(instances
+			(project "BMS_prototype_v0"
+				(path "/a933b5ea-0e2f-404b-83c4-b5bd83f9aefa"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
