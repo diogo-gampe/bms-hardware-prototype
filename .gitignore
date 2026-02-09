@@ -10,3 +10,4 @@ fp-info-cache
 # Descomente se não quiser subir os Gerbers e PDFs
 # plots/
 # *.pdf
+*-backups/
