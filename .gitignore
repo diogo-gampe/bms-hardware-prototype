@@ -1,0 +1,13 @@
+# Ficheiros temporários e de backup do KiCad
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*_autosave-*
+*.lck
+fp-info-cache
+
+# Ficheiros de saída (opcional, mas recomendado)
+# Descomente se não quiser subir os Gerbers e PDFs
+# plots/
+# *.pdf
+*-backups/
