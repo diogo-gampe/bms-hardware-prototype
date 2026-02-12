@@ -1,34 +1,50 @@
+Missing ".ends" statement in file "MMSZ5246B.txt"
 Questionable use of curly braces in "b6 en_chg 0 v={if((v(cmd_chg)>0.5)&v(fault_occ)<1,1,0)}"
     Error: undefined symbol in: "if(([v](cmd_chg)>0.5)&v(fault_occ)<1,1,0)"
 Questionable use of curly braces in "b7 en_dsg 0 v={if((v(cmd_dsg)>0.5)&v(fault_ocd)<1,1,0)}"
     Error: undefined symbol in: "if(([v](cmd_dsg)>0.5)&v(fault_ocd)<1,1,0)"
-Circuit: * C:\Users\lenovo\Documentos\Sensoria\Sim\BMS_Prot_Principal.asc
+Circuit: * C:\Users\lenovo\Documentos\KiCad\BMS\BMS_prototype_v0\Sim\BMS_Prot_Principal.asc
 
 Warning: Multiple definitions of model "swlatch" Type: Switch
 WARNING: Node N002 is floating.
 WARNING: Node N005 is floating.
 
-Direct Newton iteration for .op point succeeded.
-.step cap=1e-05
-.step cap=5e-05
-.step cap=0.0002
-.step cap=0.001
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
 
-Date: Tue Jan 13 14:21:07 2026
-Total elapsed time: 36.245 seconds.
+
+Date: Mon Feb  2 11:37:01 2026
+Total elapsed time: 5.710 seconds.
 
 tnom = 27
 temp = 27
 method = Gear
-totiter = 106538
-traniter = 106490
-tranpoints = 40417
-accept = 40320
-rejected = 97
-matrix size = 95
-fillins = 60
+totiter = 147037
+traniter = 146542
+tranpoints = 49599
+accept = 47665
+rejected = 1934
+matrix size = 101
+fillins = 79
 solver = Alternate
-Avg thread counts: 2.0/1.0/1.0/1.0
-Matrix Compiler1: 9.59 KB object code size  4.6/4.3/[2.9]
-Matrix Compiler2: 8.63 KB object code size  2.9/3.7/[2.3]
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 11.00 KB object code size  5.4/2.7/[1.9]
+Matrix Compiler2: 9.53 KB object code size  3.7/3.9/[3.8]
 
